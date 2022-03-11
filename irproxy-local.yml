@@ -1,5 +1,4 @@
 spring.cloud.config.name: IRproxy-Microservice
-profiles: local
 db: 
   url: mongodb://localhost:27017/gwb
   name: gwb
@@ -22,27 +21,4 @@ estimator: http://localhost:3000
 port: 3000
 useHttps: false
 systemUserId: 0053g00000102XU
----
-profiles: production
-db: 
-  url: mongodb://gwb-mongo:27017/gwb
-  name: gwb
-  collection: ir_leads
-environments : 
-  production: 
-    url: https://gwbuildings.my.salesforce.com/
-    username: system@gwbuildings.com
-    password: TFc*Q675Yrsv@7#L4HdTMy70ZBkTIOm4rEtNTk8W
-  sandbox: 
-    url: https://test.salesforce.com/
-    username: matthew.s@gwbuildings.com.gwmatt
-    password: pSZx_7=WNwJ4fqdcEK0vmkwiqTKppY9uTcvVdcwN
-pardot : 
-  url: https://gwbuildings.my.salesforce.com
-  secret: 917527E8AEB1BEE625D4D05DFF5D2687DA361135F36D079D9C722CE3F0113B14
-  key: 3MVG98hdjyNB1QTmPOSLOE6RtrhKotACnSIddcPepbqLFC5FrvpCC20EHavMySauH2JckvFLPonppJKWMARXp
-  uri: https://login.salesforce.com/services/oauth2/success
-estimator: http://gwb-estimator:3000
-port: 3000
-useHttps: false
-systemUserId: 0053g00000102XU
+
