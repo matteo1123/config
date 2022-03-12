@@ -1,4 +1,4 @@
-spring.cloud.config.name: IRproxy-Microservice
+spring.cloud.config.name: irproxy
 db: 
   url: mongodb://gwb-mongo:27017/gwb
   name: gwb
