@@ -19,5 +19,4 @@ pardot :
   uri: https://login.salesforce.com/services/oauth2/success
 estimator: http://gwb-estimator:3000
 port: 3000
-useHttps: false
 systemUserId: 0053g00000102XU
