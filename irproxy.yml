@@ -20,7 +20,7 @@ systemUserId: 0053g00000102XU
 ---
 profiles: production
 db: 
-  url: mongodb://gwb-production:27017/gwb
+  url: mongodb://gwb-mongo:27017/gwb
   name: gwb
   collection: ir_leads
 environments : 
